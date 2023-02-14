@@ -28,7 +28,7 @@ Object.keys(subpackagesRouter).forEach(k => {
 function setting() {
     // if (customizedPagesConfig.tabBar.list || customizedPagesConfig.tabBar.list.length < 2) return new Error('tarbar list must have two items');
     pageRoute.globalStyle = customizedPagesConfig.globalStyle || {};
-    // pageRoute.tabBar = customizedPagesConfig.tabBar;
+    pageRoute.tabBar = customizedPagesConfig.tabBar;
 }
 setting();
 fs.writeFile(filePath, JSON.stringify(pageRoute), err => {

@@ -7,6 +7,14 @@
         <!-- <image :src="`${hostFile}test.png`"></image> -->
       </swiper-item>
     </swiper>
+    <view class="classification">
+      <view class="item">1</view>
+      <view class="item">1</view>
+      <view class="item">1</view>
+      <view class="item">1</view>
+      <view class="item">1</view>
+      <view class="item">1</view>
+    </view>
   </view>
 </template>
 
@@ -29,7 +37,7 @@ export default {
 }
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 .layout {
   width: 100%;
   .backgroundColor {
@@ -46,6 +54,18 @@ export default {
     image {
       width: 100%;
       background-size: contain;
+    }
+  }
+  .classification {
+    padding: 0 20rpx;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .item {
+      margin-bottom: 20rpx;
+      width: 340rpx;
+      height: 360rpx;
+      background: #000;
     }
   }
 }
