@@ -5,6 +5,7 @@ module.exports = {
             preProcessor: 'less',
             patterns: [
                 path.resolve(__dirname, 'src/static/css/base.less'),
+                path.resolve(__dirname, 'src/static/font/iconfont.css'),
             ]
         }
     }

@@ -35,12 +35,12 @@ module.exports = {
 			"pagePath": "customized/pages/index/index",
 			"iconPath": "static/images/home.png",
 			"selectedIconPath": "static/images/home_active.png",
-			"text": "组件",
+			"text": "首页",
 		}, {
 			"pagePath": "customized/pages/individualCenter/index",
 			"iconPath": "static/images/center.png",
 			"selectedIconPath": "static/images/center_active.png",
-			"text": "接口"
+			"text": "个人中心"
 		}],
 	},
 }

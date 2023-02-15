@@ -2,7 +2,7 @@
   <view class="layout">
     <view class="backgroundColor"></view>
     <view class="headLayout">
-
+      
     </view>
   </view>
 </template>
