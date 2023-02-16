@@ -13,6 +13,13 @@ module.exports = {
 				"navigationBarTitleText": "个人中心",
 				"navigationBarTextStyle": "white"
 			}
+		},
+		{
+			"path": "pages/topicList/index",
+			"style": {
+				"navigationBarTitleText": "题目列表",
+				"navigationBarTextStyle": "white"
+			}
 		}
 	],
 	"globalStyle": {
