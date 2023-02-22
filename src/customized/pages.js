@@ -20,6 +20,13 @@ module.exports = {
 				"navigationBarTitleText": "题目列表",
 				"navigationBarTextStyle": "white"
 			}
+		},
+		{
+			"path": "pages/detail/index",
+			"style": {
+				"navigationBarTitleText": "题目答案",
+				"navigationBarTextStyle": "white",
+			},
 		}
 	],
 	"globalStyle": {

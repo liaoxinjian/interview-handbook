@@ -1,7 +1,7 @@
 <template>
   <view class="layout">
     <scroll-view>
-      <view class="item">
+      <view class="item" @click="linkPages">
         <view class="itemText">题目一二三四五六七八九十</view>
         <view class="itemTime">更新时间: 2023-02-16</view>
         <icon class="iconfont icon-youjiantou"></icon>
@@ -21,9 +21,17 @@
 </template>
 
 <script>
-
+import { navigateTo } from 'common/utils/navigate';
+import { envConfig } from 'common/config/index';
 export default {
-
+  methods: {
+    linkPages() {
+      console.log('asdasd');
+      navigateTo({
+        url: `${envConfig.CUSTOMIZED}pages/detail/index`,
+      })
+    }
+  }
 }
 </script>
 

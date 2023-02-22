@@ -95,7 +95,7 @@ export default {
   methods: {
     goLink() {
       navigateTo({
-        url: '/customized/pages/topicList/index'
+        url: `${envConfig.CUSTOMIZED}pages/topicList/index`
       })
     }
   }
